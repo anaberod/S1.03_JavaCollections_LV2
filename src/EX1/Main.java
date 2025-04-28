@@ -14,7 +14,6 @@ public class Main {
         Restaurant r5 = new Restaurant("Pasties & Tea", 9);
 
 
-        //meter en el hashset
         restaurants.add(r1);
         restaurants.add(r2);
         restaurants.add(r3);

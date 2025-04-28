@@ -22,10 +22,10 @@ public class Restaurant {
 
     @Override
     public boolean equals(Object o) {
-        if(this==o) return true;
+        if (this == o) return true;
         if ((this == null || this.getClass() != o.getClass())) return false;
         Restaurant otherRestaurant = (Restaurant) o;
-        return score == otherRestaurant.getScore() && Objects.equals(name,otherRestaurant.name);
+        return score == otherRestaurant.getScore() && Objects.equals(name, otherRestaurant.name);
     }
 
     @Override
